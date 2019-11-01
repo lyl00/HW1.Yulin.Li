@@ -69,6 +69,7 @@ num_members = (1+q)*q;% half m and half of its conjugate
 num_bar = num_members;
 num_string = 0;
 
+% I can write it as a general case q order if have times.
 D = zeros(num_allNodes,num_members);
 D(1,1) = -1; D(6,1) = 1;
 D(6,2) = -1; D(10,2) = 1;
